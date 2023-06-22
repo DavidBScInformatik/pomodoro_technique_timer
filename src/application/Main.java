@@ -1,3 +1,15 @@
+/*
+ * Pomodoro Technique Timer
+ * 
+ * In preparation for my application process, I developed small projects.
+ * If you have any questions about the code, you can email me at any time. 
+ * You can find my email address in my CV.
+ * 
+ * This project hase been poblished on https://github.com/DavidBScInformatik
+ * 
+ * Designed and developed with ♥ by David Jahn - Copyright 2023
+ */
+
 package application;
 	
 import javafx.application.Application;
