@@ -21,7 +21,7 @@ public class Task extends Thread {
 		int focusMinutesLeft = (int) this.spinnerArr[0].getValue();
 		int breakMinutesLeft = (int) this.spinnerArr[1].getValue();
 		int longBreakMinutesLeft = (int) this.spinnerArr[2].getValue();
-		int secondsLeft = 5;
+		int secondsLeft = 59;
 		boolean getABreak = false;
 		boolean getALongBreak = false;
 		
@@ -45,7 +45,7 @@ public class Task extends Thread {
 				} else {
 					// if seconds become 0 substract a minute
 					focusMinutesLeft--;
-					secondsLeft = 5;
+					secondsLeft = 59;
 					if (focusMinutesLeft == 0) {
 						getABreak = true;
 						interval--;
@@ -60,7 +60,7 @@ public class Task extends Thread {
 					secondsLeft--;
 				} else {
 					breakMinutesLeft--;
-					secondsLeft = 5;
+					secondsLeft = 59;
 					if (breakMinutesLeft <= 0 && interval != 0) {
 						focusMinutesLeft = (int) this.spinnerArr[0].getValue();
 						getABreak = false;
@@ -75,7 +75,7 @@ public class Task extends Thread {
 					secondsLeft--;
 				} else {
 					longBreakMinutesLeft--;
-					secondsLeft = 5;
+					secondsLeft = 59;
 					if(longBreakMinutesLeft <= 0) {
 						getALongBreak = true;
 					}
