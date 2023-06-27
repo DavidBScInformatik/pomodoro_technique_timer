@@ -5,7 +5,7 @@
  * If you have any questions about the code, you can email me at any time. 
  * You can find my email address in my CV.
  * 
- * This project hase been poblished on https://github.com/DavidBScInformatik
+ * This project hase been published on https://github.com/DavidBScInformatik
  * 
  * Designed and developed with ♥ by David Jahn - Copyright 2023
  */
